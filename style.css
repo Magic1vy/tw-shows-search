@@ -1,0 +1,37 @@
+body{
+    background-color: #810000;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.input{
+    display: flex;
+}
+#search{
+    padding: 10px;
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+}
